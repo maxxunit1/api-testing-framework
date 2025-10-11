@@ -1,0 +1,50 @@
+{
+  "users": {
+    "list": "/users",
+    "create": "/users",
+    "get": "/users/{id}",
+    "update": "/users/{id}",
+    "delete": "/users/{id}",
+    "posts": "/users/{id}/posts",
+    "albums": "/users/{id}/albums",
+    "todos": "/users/{id}/todos"
+  },
+  "posts": {
+    "list": "/posts",
+    "create": "/posts",
+    "get": "/posts/{id}",
+    "update": "/posts/{id}",
+    "delete": "/posts/{id}",
+    "comments": "/posts/{id}/comments"
+  },
+  "comments": {
+    "list": "/comments",
+    "create": "/comments",
+    "get": "/comments/{id}",
+    "update": "/comments/{id}",
+    "delete": "/comments/{id}",
+    "by_post": "/posts/{postId}/comments"
+  },
+  "albums": {
+    "list": "/albums",
+    "create": "/albums",
+    "get": "/albums/{id}",
+    "update": "/albums/{id}",
+    "delete": "/albums/{id}",
+    "photos": "/albums/{id}/photos"
+  },
+  "photos": {
+    "list": "/photos",
+    "create": "/photos",
+    "get": "/photos/{id}",
+    "update": "/photos/{id}",
+    "delete": "/photos/{id}"
+  },
+  "todos": {
+    "list": "/todos",
+    "create": "/todos",
+    "get": "/todos/{id}",
+    "update": "/todos/{id}",
+    "delete": "/todos/{id}"
+  }
+}

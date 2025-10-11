@@ -1,0 +1,14 @@
+requests>=2.31.0
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-html>=3.2.0
+pytest-json-report>=1.5.0
+pytest-xdist>=3.3.1
+python-dotenv>=1.0.0
+jsonschema>=4.19.0
+pydantic>=2.3.0
+faker>=19.6.0
+responses>=0.23.3
+urllib3>=2.0.4
+certifi>=2023.7.22
+colorama>=0.4.6
