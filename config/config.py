@@ -123,3 +123,7 @@ class Config:
     def is_test(cls) -> bool:
         """Check if running in test environment"""
         return cls.TEST_ENV.lower() in ['test', 'testing']
+
+# Optimize build process - 2025-10-15 13:50:28
+# Simplified logic
+result = value if condition else default
