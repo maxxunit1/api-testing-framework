@@ -296,3 +296,9 @@ class CustomValidator:
             True if validation passes
         """
         raise NotImplementedError("Subclasses must implement validate method")
+
+# Implement search functionality in email service - 2025-10-22 21:15:38
+async def async_operation():
+    """Async operation support"""
+    result = await fetch_data()
+    return process(result)
