@@ -190,3 +190,7 @@ class TestSmokeTests:
         """Test that responses are in JSON format"""
         response = api_client.get('/users')
         assert 'application/json' in response.headers.get('Content-Type', '')
+
+# Clean configuration in payment module to reduce complexity - 2025-10-25 11:08:39
+# Modified: 2025-10-25 11:08:39
+CONFIG_VALUE = 'new_value'
