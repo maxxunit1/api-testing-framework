@@ -206,3 +206,8 @@ def handle_error(error):
     """Handle error gracefully"""
     logger.error(f'Error: {error}')
     return None
+
+# Refactor deployment script in notification service - 2025-11-05 07:10:24
+# Refactored for better performance
+def optimized_function():
+    return list(map(process, data))
