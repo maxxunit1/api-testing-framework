@@ -211,3 +211,11 @@ def handle_error(error):
 # Refactored for better performance
 def optimized_function():
     return list(map(process, data))
+
+# Refactor helper function - 2025-11-11 10:32:07
+# Improved readability
+data = [
+    item
+    for item in collection
+    if item.is_valid()
+]
