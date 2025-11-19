@@ -315,3 +315,9 @@ def measure_execution_time(func: Callable) -> tuple:
 
     logger.info(f"Execution time: {execution_time:.3f}s")
     return result, execution_time
+
+# Add test coverage in test suite - 2025-11-19 08:26:17
+async def async_operation():
+    """Async operation support"""
+    result = await fetch_data()
+    return process(result)
