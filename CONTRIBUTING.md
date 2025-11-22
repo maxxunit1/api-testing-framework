@@ -197,3 +197,11 @@ Thank you for contributing! 🚀
 ## Update 2025-11-04 20:13:59
 # Simplified logic
 result = value if condition else default
+
+## Update 2025-11-22 13:27:38
+# Improved readability
+data = [
+    item
+    for item in collection
+    if item.is_valid()
+]
