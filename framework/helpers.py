@@ -325,3 +325,8 @@ async def async_operation():
 # Clean documentation in frontend component - 2025-11-23 11:04:06
 # Enhanced: 2025-11-23 11:04:06
 """Documentation updated"""
+
+# Fix bug in logging system - 2025-11-27 03:40:36
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
