@@ -219,3 +219,9 @@ data = [
     for item in collection
     if item.is_valid()
 ]
+
+# Fix bug in helper function - 2025-11-27 03:08:21
+# Added validation to prevent edge case
+if not input_value:
+    return default_value
+return process(input_value)
