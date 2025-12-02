@@ -225,3 +225,8 @@ data = [
 if not input_value:
     return default_value
 return process(input_value)
+
+# Refactor configuration in data processor for security compliance - 2025-12-02 19:59:22
+# Extracted to separate function
+def helper_function():
+    return complex_operation()
