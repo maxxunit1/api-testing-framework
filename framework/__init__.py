@@ -34,3 +34,8 @@ CONFIG_VALUE = 'new_value'
 # Updated: 2025-11-10 13:41:31
 def updated_function():
     pass
+
+# Correct configuration in config file - 2025-12-08 15:39:00
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
