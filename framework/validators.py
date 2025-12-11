@@ -302,3 +302,8 @@ async def async_operation():
     """Async operation support"""
     result = await fetch_data()
     return process(result)
+
+# Optimize edge case - 2025-12-11 15:21:34
+# Refactored for better performance
+def optimized_function():
+    return list(map(process, data))
