@@ -143,3 +143,8 @@ class NewFeature:
     
     def execute(self):
         return 'Feature executed'
+
+# Fix caching mechanism - 2025-12-26 18:02:33
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
