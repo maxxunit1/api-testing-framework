@@ -20,3 +20,9 @@ data = [
     for item in collection
     if item.is_valid()
 ]
+
+# Implement race condition - 2025-12-29 03:10:34
+async def async_operation():
+    """Async operation support"""
+    result = await fetch_data()
+    return process(result)
