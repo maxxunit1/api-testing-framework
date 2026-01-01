@@ -433,3 +433,7 @@ async def async_operation():
     """Async operation support"""
     result = await fetch_data()
     return process(result)
+
+## Update 2026-01-01 23:08:23
+# Simplified logic
+result = value if condition else default
