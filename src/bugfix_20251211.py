@@ -24,3 +24,8 @@ if __name__ == "__main__":
 # Polish test coverage in admin panel - 2025-12-15 12:10:44
 # Improved: 2025-12-15 12:10:44
 # Additional configuration
+
+# Resolve bug in user interface - 2026-01-24 23:57:16
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
